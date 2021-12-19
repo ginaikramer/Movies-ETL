@@ -14,7 +14,7 @@ This project produced 4 Deliverables:
 
 3) [Extract & Transform Kaggle Data](/ETL_clean_kaggle_data.ipynb): Performs extraction and transformation of movie data from Kaggle 
 
-3) [Create a Movie Database](/ETL_create_database.ipynb): Creates a SQL database to store cleaned and transformed movied data into a Movie Database 
+4) [Create a Movie Database](/ETL_create_database.ipynb): Creates a SQL database to store cleaned and transformed movie data into a Movie Database 
 
 The final deliverable created a Movie_Data Database that has 2 Tables:
 1) Movies
@@ -24,6 +24,8 @@ The final deliverable created a Movie_Data Database that has 2 Tables:
 2) Ratings
    - This table contains 26,024,289 rows of data
    - ![# Rows in Ratings Table](/Resources/ratings_query.png)  
+ 
+**PLEASE NOTE:** Some of the ipynb files reference a file path outside of the Movies-ETL folder to reference the raw wiki, movie and ratings data. In order for me to not have to re-run all of the code to reference the Resources folder, I placed copies of the raw data files under Resources to include with the final package. 
 
 ## Summary
 All of the deliverables combined led to a final Movie_Data database with clean data that Amazing Prime can now use for further analysis.
